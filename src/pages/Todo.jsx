@@ -40,27 +40,27 @@ const main = () => {
 // Gunakan const untuk membuat variabel
 const users = [
     {
-        name: "Irsyad",
+        name: "Iryad",
         age: 18,
         major: "Pengembangan Perangkat Lunak"
     },
     {
-        name: "Baihaqi",
+        name: "Okita",
         age: 19,
         major: "Rekayasa Perangkat Lunak"
     },
     {
-        name: "Nadvi",
+        name: "Ifaq",
         age: 19,
         major: "Digital Marketing"
     },
     {
-        name: "Hanif",
+        name: "Zora",
         age: 19,
         major: "Multimedia"
     },
     {
-        name: "Hafif",
+        name: "Tama",
         age: 18,
         major: "Pengembangan Perangkat Lunak"
     }
@@ -95,7 +95,7 @@ const update = (index, newUser) => {
 // Gunakan metode splice
 const destroy = (index) => {
     if (index >= 0 && index < users.length) {
-      users.splice(index, 1); // Menghapus satu elemen pada indeks yang diberikan
+      users.splice(index, 1); 
       console.log(`Data pengguna dengan indeks ${index} telah dihapus.`);
     } else {
       console.log(`Indeks ${index} tidak valid.`);
